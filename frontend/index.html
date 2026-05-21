@@ -1788,90 +1788,14 @@
     /* ═══════════════════════════════════════════════════════════════
    STAT BAR (quick summary at top of result)
 ═══════════════════════════════════════════════════════════════ */
-    .stat-bar {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-      margin-bottom: 16px;
-    }
-
-    .stat-chip {
-      flex: 1;
-      min-width: 80px;
-      padding: 10px 14px;
-      border-radius: var(--r2);
-      background: var(--bg3);
-      border: 1px solid var(--border);
-      text-align: center;
-    }
-
-    .stat-chip-num {
-      font-family: var(--font-disp);
-      font-size: 1.4rem;
-      font-weight: 800;
-      line-height: 1;
-    }
-
-    .stat-chip-label {
-      font-size: 0.7rem;
-      color: var(--text3);
-      margin-top: 2px
-    }
-
-    .stat-chip.error-chip .stat-chip-num {
-      color: var(--red)
-    }
-
-    .stat-chip.warn-chip .stat-chip-num {
-      color: var(--yellow)
-    }
-
-    .stat-chip.info-chip .stat-chip-num {
-      color: var(--accent)
-    }
-
-    /* responsive */
-    @media(max-width:600px) {
-      .hero h1 {
-        font-size: 2.2rem;
-        line-height: 1.18
-      }
-
-      nav {
-        flex-wrap: wrap;
-        gap: 8px
-      }
-
-      .nav-links .nav-link span {
-        display: none
-      }
-
-      .hero {
-        padding: 50px 0 40px
-      }
-
-      .hero-sub {
-        font-size: 0.98rem
-      }
-
-      .features-row {
-        gap: 8px;
-        padding: 16px 0 40px
-      }
-
-      .feat-pill {
-        padding: 10px 14px;
-        min-width: 140px
-      }
-
-      .workspace {
-        gap: 14px
-      }
-
-      .panel-header {
-        padding: 12px 14px
-      }
-
+ <!-- Language tabs -->
+    <div class="lang-tabs" role="tablist" aria-label="Select Programming Language">
+      <!-- ... your buttons are here ... -->
+    </div>
+    
+    <!-- Editor Panel -->
+    <div class="panel">
+      <!-- ... your editor code starts here ... -->
       .mode-row {
         gap: 6px;
         padding: 10px 14px
